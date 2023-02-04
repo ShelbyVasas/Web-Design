@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 #content{
     max-width: 1600px;
     width: 1000px;
@@ -13,6 +17,37 @@ nav a, .book, .join, footer a {
     text-align: center;
     color: #094074;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.rivers-card, .camping-card, .rapids-card  {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #094074;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
 }
 
 #background {
@@ -21,10 +56,20 @@ nav a, .book, .join, footer a {
 
 body {
     background-color: #fcfbfb; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color:#addca5;
+    font-family: 'Covered By Your Grace', 'Open Sans';
+    
 }
 
 nav a:hover {
@@ -33,6 +78,9 @@ nav a:hover {
 
 .home-title {
     color: #094074;
+    font-family: 'Secular One';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -45,14 +93,20 @@ h4 {
 
 .msg h2 {
     color: #094074;
+    font-family: 'Secular One';
 }
 
 .msg p {
     color: #094074;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #addca5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -63,8 +117,16 @@ footer a:hover {
     color: white;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo{
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .icon{
@@ -77,6 +139,7 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+    font-family: 'Covered By Your Grace', 'Open Sans';
 }    
 
 footer p a:hover {
