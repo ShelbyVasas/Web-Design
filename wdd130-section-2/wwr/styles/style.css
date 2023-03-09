@@ -111,6 +111,90 @@ main section img {
     padding-bottom: 15px;
 }
 
+.river1 {
+    width: 100%;
+    grid-column: 2/10;
+    grid-row: 1/6;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river1 {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/10;
+    grid-row: 6/12;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river1 h2{
+    color: #094074;
+    font-family: 'Secular One';
+}
+
+.msg-river1 p{
+    color: #094074;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.river2 {
+    width: 100%;
+    grid-column: 2/10;
+    grid-row: 18/24;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river2 {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/10;
+    grid-row: 24/30;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river2 h2 {
+    color: #094074;
+    font-family: 'Secular One';
+}
+
+.msg-river2 p {
+    color: #094074;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.river3 {
+    width: 100%;
+    grid-column: 2/10;
+    grid-row: 30/36;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river3 {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 2/10;
+    grid-row: 36/42;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 1em;
+}
+
+.msg-river3 h2 {
+    color: #094074;
+    font-family: 'Secular One';
+}
+
+.msg-river3 p {
+    color: #094074;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 footer {
     background-color: #addca5;
     padding: 25px 50px;
@@ -195,7 +279,6 @@ footer .social img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-
 .mountains {
     width: 100%;
     grid-column: 2/7;
@@ -213,8 +296,6 @@ footer .social img {
     grid-row: 1/2;
     margin-top: 100px;
 }
-
-
 
 
 @media screen and (max-width: 900px) {
