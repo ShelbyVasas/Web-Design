@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ede4de;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    justify-content: left;
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    margin: 25px;
+}
+
+#title h1 {
+    font-size: 100px;
+    margin: 0;
+    font-family: Montserrat;
+}
+#title h2 {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    font-family: Inter;
+
+}
+div#title {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.links {
+    background-color: #ede4de;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 10px 0px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placeholder {
+    width: 70%;
+    height: 20%;
+    margin: 25px;
+}
+
+#aboutme {
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    max-width: 300px;
+}
+#aboutme h1{
+    font-family: Montserrat;
+}
+
+#aboutme p {
+    font-family: Inter;
+    font-weight: 500;
+}
+#me {
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    min-width: 250px;
+}
+
+
+footer {
+    background-color: #ede4de;
+}
+
+footer a img{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+
+
