@@ -23,14 +23,14 @@ header {
 #title h1 {
     font-size: 100px;
     margin: 0;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
 }
 #title h2 {
     padding: 0;
     margin: 0 auto 0 auto;
-    font-family: Inter;
-
+    font-family: Inter, serif;
 }
+
 div#title {
     padding: 25px;
     display: flex;
@@ -54,13 +54,50 @@ div#title {
 .links a {
     text-decoration: none;
     color: black;
-    font-family: Inter;
+    font-family: Inter, serif;
 }
 
 main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#port {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: baseline;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 50px;
+
+}
+
+.projects img {
+    width: auto;
+    height: 200px;
+}
+
+.projects h1 {
+    margin: 5px;
+    font-family: Montserrat, serif;
+    font-size: 25px;
+}
+
+.projects p {
+    margin: 5px;
+    font-family: Inter, serif;
+}
+
+.projects a {
+    font-family: Inter, serif;
+    font-weight: 700;
+    color: black;
 }
 
 .placeholder {
@@ -76,7 +113,7 @@ main {
     max-width: 300px;
 }
 #aboutme h1{
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
 }
 
 #aboutme p {
