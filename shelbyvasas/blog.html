@@ -24,9 +24,19 @@
 
     <main>
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Kubernetes')">Kubernetes</button>
             <button class="tablinks" onclick="openCity(event, 'Knowledge')">Knowledge</button>
+            <button class="tablinks" onclick="openCity(event, 'Kubernetes')">Kubernetes</button>
             <button class="tablinks" onclick="openCity(event, 'Gun.js')">Gun.js</button>
+            <button class="tablinks" onclick="openCity(event, 'Example')">Example</button>
+            <button class="tablinks" onclick="openCity(event, 'Example1')">Example1</button>
+            <button class="tablinks" onclick="openCity(event, 'Example2')">Example2</button>
+          </div>
+          
+          <div id="Knowledge" class="tabcontent">
+            <h3>Knowledge</h3>
+            <p>When I get the site up and running with more content, this section of my website will be where
+                I post about the different things I am learning and give 
+                examples and definitions that I find helpful.</p>
           </div>
           
           <div id="Kubernetes" class="tabcontent">
@@ -35,14 +45,9 @@
                 Simply put,  is an open-source platform that helps manage and automate the deployment, scaling, 
                 and operation of containerized applications.
             </p>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.wRmMzn36p6aaa1zO6WOTwAHaEK&pid=Api&P=0" alt="Kubernetes">
           </div>
-          
-          <div id="Knowledge" class="tabcontent">
-            <h3>Knowledge</h3>
-            <p>This section of my website will be where I post about the different things I am learning and give 
-                examples and definitions that I find helpful.</p>
-          </div>
-          
+
           <div id="Gun.js" class="tabcontent">
             <h3>Gun.js</h3>
             <p>I have been messing around a bit with gun.js which is an open source, decentralized javascript database
@@ -50,7 +55,33 @@
                 large scale servers.
             </p>
           </div>
+
+          <div id="Example" class="tabcontent">
+            <h3>Example</h3>
+            <p>This is an example.
+            </p>
+          </div>
+
+          <div id="Example1" class="tabcontent">
+            <h3>Example1</h3>
+            <p>This is an example.
+            </p>
+          </div>
+
+          <div id="Example2" class="tabcontent">
+            <h3>Example2</h3>
+            <p>This is an example.
+            </p>
+          </div>
+
     </main>
+
+    <footer>
+      <a href="https://github.com/ShelbyVasas"><img src="images/github.svg" alt="github"></a>
+      <a href="https://www.linkedin.com/in/shelby-vasas-a24201269/"><img src="images/linkedin.svg" alt="linkedin"></a>
+      <a href="site-plan.html"><img src="images/network-wired-solid.svg" alt="wireframe"></a>
+  </footer>
+
     <script>
         function openCity(evt, cityName) {
             // Declare all variables
@@ -73,10 +104,6 @@
             evt.currentTarget.className += " active";
   }
     </script>
-    <footer>
-        <a href="https://github.com/ShelbyVasas"><img src="images/github.svg" alt="github"></a>
-        <a href=""><img src="images/linkedin.svg" alt="linkedin"></a>
-        <a href="site-plan.html"><img src="images/network-wired-solid.svg" alt="wireframe"></a>
-    </footer>
+
 </body>
 </html>
